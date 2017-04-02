@@ -55,7 +55,7 @@ int main(int argc, char **argv)
 		printf("connect error!\n");
 		return -1;
 	}
-	printf("ok\n");
+	
 	while (1)
 	{
 		if (fgets(ucSendBuf, 999, stdin))
