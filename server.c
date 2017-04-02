@@ -63,7 +63,7 @@ int main(int argc, char **argv)
 		printf("listen error!\n");
 		return -1;
 	}
-	sleep(200000);
+	
 	while (1)
 	{
 		iAddrLen = sizeof(struct sockaddr);
